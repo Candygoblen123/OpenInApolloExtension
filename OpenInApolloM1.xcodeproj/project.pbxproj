@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36963CA226FE2F9500A8096B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36963CA126FE2F9500A8096B /* AppDelegate.swift */; };
+		36963CA626FE2F9500A8096B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 36963CA426FE2F9500A8096B /* Main.html */; };
+		36963CA826FE2F9500A8096B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36963CA726FE2F9500A8096B /* Icon.png */; };
+		36963CAA26FE2F9500A8096B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 36963CA926FE2F9500A8096B /* Style.css */; };
+		36963CAC26FE2F9500A8096B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 36963CAB26FE2F9500A8096B /* Script.js */; };
+		36963CAE26FE2F9500A8096B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36963CAD26FE2F9500A8096B /* ViewController.swift */; };
+		36963CB126FE2F9500A8096B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36963CAF26FE2F9500A8096B /* Main.storyboard */; };
+		36963CB326FE2F9700A8096B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36963CB226FE2F9700A8096B /* Assets.xcassets */; };
+		36963CBB26FE2F9700A8096B /* OpenInApolloM1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 36963CBA26FE2F9700A8096B /* OpenInApolloM1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		36963CC026FE2F9700A8096B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36963CBF26FE2F9700A8096B /* SafariWebExtensionHandler.swift */; };
+		36963CC326FE2F9700A8096B /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 36963CC226FE2F9700A8096B /* _locales */; };
+		36963CC526FE2F9700A8096B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 36963CC426FE2F9700A8096B /* images */; };
+		36963CC726FE2F9700A8096B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 36963CC626FE2F9700A8096B /* manifest.json */; };
+		36963CCB26FE2F9700A8096B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 36963CCA26FE2F9700A8096B /* content.js */; };
+		36963CCD26FE2F9700A8096B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 36963CCC26FE2F9700A8096B /* popup.html */; };
+		36963CCF26FE2F9700A8096B /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 36963CCE26FE2F9700A8096B /* popup.css */; };
+		36963CD126FE2F9700A8096B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 36963CD026FE2F9700A8096B /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36963CBC26FE2F9700A8096B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36963C9626FE2F9500A8096B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36963CB926FE2F9700A8096B;
+			remoteInfo = "OpenInApolloM1 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36963CD926FE2F9700A8096B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				36963CBB26FE2F9700A8096B /* OpenInApolloM1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36963C9E26FE2F9500A8096B /* OpenInApolloM1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInApolloM1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36963CA126FE2F9500A8096B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36963CA526FE2F9500A8096B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		36963CA726FE2F9500A8096B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		36963CA926FE2F9500A8096B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		36963CAB26FE2F9500A8096B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		36963CAD26FE2F9500A8096B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36963CB026FE2F9500A8096B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36963CB226FE2F9700A8096B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36963CB426FE2F9700A8096B /* OpenInApolloM1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenInApolloM1.entitlements; sourceTree = "<group>"; };
+		36963CB526FE2F9700A8096B /* OpenInApolloM1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenInApolloM1.entitlements; sourceTree = "<group>"; };
+		36963CBA26FE2F9700A8096B /* OpenInApolloM1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenInApolloM1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36963CBF26FE2F9700A8096B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		36963CC226FE2F9700A8096B /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		36963CC426FE2F9700A8096B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		36963CC626FE2F9700A8096B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		36963CCA26FE2F9700A8096B /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		36963CCC26FE2F9700A8096B /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		36963CCE26FE2F9700A8096B /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		36963CD026FE2F9700A8096B /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		36963CD226FE2F9700A8096B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36963CD326FE2F9700A8096B /* OpenInApolloM1_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenInApolloM1_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36963C9B26FE2F9500A8096B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36963CB726FE2F9700A8096B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36963C9526FE2F9500A8096B = {
+			isa = PBXGroup;
+			children = (
+				36963CA026FE2F9500A8096B /* OpenInApolloM1 */,
+				36963CBE26FE2F9700A8096B /* OpenInApolloM1 Extension */,
+				36963C9F26FE2F9500A8096B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36963C9F26FE2F9500A8096B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36963C9E26FE2F9500A8096B /* OpenInApolloM1.app */,
+				36963CBA26FE2F9700A8096B /* OpenInApolloM1 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36963CA026FE2F9500A8096B /* OpenInApolloM1 */ = {
+			isa = PBXGroup;
+			children = (
+				36963CA126FE2F9500A8096B /* AppDelegate.swift */,
+				36963CAD26FE2F9500A8096B /* ViewController.swift */,
+				36963CAF26FE2F9500A8096B /* Main.storyboard */,
+				36963CB226FE2F9700A8096B /* Assets.xcassets */,
+				36963CB426FE2F9700A8096B /* OpenInApolloM1.entitlements */,
+				36963CB526FE2F9700A8096B /* OpenInApolloM1.entitlements */,
+				36963CA326FE2F9500A8096B /* Resources */,
+			);
+			path = OpenInApolloM1;
+			sourceTree = "<group>";
+		};
+		36963CA326FE2F9500A8096B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36963CA426FE2F9500A8096B /* Main.html */,
+				36963CA726FE2F9500A8096B /* Icon.png */,
+				36963CA926FE2F9500A8096B /* Style.css */,
+				36963CAB26FE2F9500A8096B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		36963CBE26FE2F9700A8096B /* OpenInApolloM1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				36963CBF26FE2F9700A8096B /* SafariWebExtensionHandler.swift */,
+				36963CD226FE2F9700A8096B /* Info.plist */,
+				36963CD326FE2F9700A8096B /* OpenInApolloM1_Extension.entitlements */,
+				36963CC126FE2F9700A8096B /* Resources */,
+			);
+			path = "OpenInApolloM1 Extension";
+			sourceTree = "<group>";
+		};
+		36963CC126FE2F9700A8096B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36963CC226FE2F9700A8096B /* _locales */,
+				36963CC426FE2F9700A8096B /* images */,
+				36963CC626FE2F9700A8096B /* manifest.json */,
+				36963CCA26FE2F9700A8096B /* content.js */,
+				36963CCC26FE2F9700A8096B /* popup.html */,
+				36963CCE26FE2F9700A8096B /* popup.css */,
+				36963CD026FE2F9700A8096B /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36963C9D26FE2F9500A8096B /* OpenInApolloM1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36963CDA26FE2F9700A8096B /* Build configuration list for PBXNativeTarget "OpenInApolloM1" */;
+			buildPhases = (
+				36963C9A26FE2F9500A8096B /* Sources */,
+				36963C9B26FE2F9500A8096B /* Frameworks */,
+				36963C9C26FE2F9500A8096B /* Resources */,
+				36963CD926FE2F9700A8096B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36963CBD26FE2F9700A8096B /* PBXTargetDependency */,
+			);
+			name = OpenInApolloM1;
+			productName = OpenInApolloM1;
+			productReference = 36963C9E26FE2F9500A8096B /* OpenInApolloM1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36963CB926FE2F9700A8096B /* OpenInApolloM1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36963CD626FE2F9700A8096B /* Build configuration list for PBXNativeTarget "OpenInApolloM1 Extension" */;
+			buildPhases = (
+				36963CB626FE2F9700A8096B /* Sources */,
+				36963CB726FE2F9700A8096B /* Frameworks */,
+				36963CB826FE2F9700A8096B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenInApolloM1 Extension";
+			productName = "OpenInApolloM1 Extension";
+			productReference = 36963CBA26FE2F9700A8096B /* OpenInApolloM1 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36963C9626FE2F9500A8096B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					36963C9D26FE2F9500A8096B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					36963CB926FE2F9700A8096B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 36963C9926FE2F9500A8096B /* Build configuration list for PBXProject "OpenInApolloM1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36963C9526FE2F9500A8096B;
+			productRefGroup = 36963C9F26FE2F9500A8096B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36963C9D26FE2F9500A8096B /* OpenInApolloM1 */,
+				36963CB926FE2F9700A8096B /* OpenInApolloM1 Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36963C9C26FE2F9500A8096B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36963CA826FE2F9500A8096B /* Icon.png in Resources */,
+				36963CB126FE2F9500A8096B /* Main.storyboard in Resources */,
+				36963CAC26FE2F9500A8096B /* Script.js in Resources */,
+				36963CA626FE2F9500A8096B /* Main.html in Resources */,
+				36963CB326FE2F9700A8096B /* Assets.xcassets in Resources */,
+				36963CAA26FE2F9500A8096B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36963CB826FE2F9700A8096B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36963CCF26FE2F9700A8096B /* popup.css in Resources */,
+				36963CCD26FE2F9700A8096B /* popup.html in Resources */,
+				36963CC526FE2F9700A8096B /* images in Resources */,
+				36963CC726FE2F9700A8096B /* manifest.json in Resources */,
+				36963CC326FE2F9700A8096B /* _locales in Resources */,
+				36963CCB26FE2F9700A8096B /* content.js in Resources */,
+				36963CD126FE2F9700A8096B /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36963C9A26FE2F9500A8096B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36963CAE26FE2F9500A8096B /* ViewController.swift in Sources */,
+				36963CA226FE2F9500A8096B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36963CB626FE2F9700A8096B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36963CC026FE2F9700A8096B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36963CBD26FE2F9700A8096B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36963CB926FE2F9700A8096B /* OpenInApolloM1 Extension */;
+			targetProxy = 36963CBC26FE2F9700A8096B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36963CA426FE2F9500A8096B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36963CA526FE2F9500A8096B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		36963CAF26FE2F9500A8096B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36963CB026FE2F9500A8096B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36963CD426FE2F9700A8096B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36963CD526FE2F9700A8096B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		36963CD726FE2F9700A8096B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "OpenInApolloM1 Extension/OpenInApolloM1_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OpenInApolloM1 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenInApolloM1 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.candy.OpenInApolloM1.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36963CD826FE2F9700A8096B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "OpenInApolloM1 Extension/OpenInApolloM1_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OpenInApolloM1 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OpenInApolloM1 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.candy.OpenInApolloM1.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		36963CDB26FE2F9700A8096B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenInApolloM1/OpenInApolloM1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenInApolloM1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.candy.OpenInApolloM1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36963CDC26FE2F9700A8096B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenInApolloM1/OpenInApolloM1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJNC97Y8QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OpenInApolloM1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.candy.OpenInApolloM1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36963C9926FE2F9500A8096B /* Build configuration list for PBXProject "OpenInApolloM1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36963CD426FE2F9700A8096B /* Debug */,
+				36963CD526FE2F9700A8096B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36963CD626FE2F9700A8096B /* Build configuration list for PBXNativeTarget "OpenInApolloM1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36963CD726FE2F9700A8096B /* Debug */,
+				36963CD826FE2F9700A8096B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36963CDA26FE2F9700A8096B /* Build configuration list for PBXNativeTarget "OpenInApolloM1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36963CDB26FE2F9700A8096B /* Debug */,
+				36963CDC26FE2F9700A8096B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36963C9626FE2F9500A8096B /* Project object */;
+}

@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", (event) => {
     browser.storage.local.get((item) => {
-        const automaticToggle = document.getElementById("automatic-toggle");
+        const automaticToggle = document.getElementById("enabled-toggle");
 
         var automaticObj = item.automaticObj;
 
@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         }
 
         automaticToggle.addEventListener("change", (event) => {
-            if (document.getElementById("automatic-toggle").checked) {
+            if (document.getElementById("enabled-toggle").checked) {
                 let automaticObj = { isAutomatic: true };
                 browser.storage.local.set({automaticObj});
             } else {

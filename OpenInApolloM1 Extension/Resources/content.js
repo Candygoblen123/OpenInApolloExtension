@@ -22,27 +22,27 @@ function runCheck() {
        // postID, commentID, context can be NULL, but subreddit should never be
         if (postID && commentID && context) {
             if (isAutomatic) {
-                window.location.replace(`https://openinapollo.com?subreddit=${subreddit}&postID=${postID}&commentID=${commentID}&context=${context}`);
-            } else {
                 window.location.replace(`apollo://reddit.com/r/${subreddit}/comments/${postID}/_/${commentID}/?context=${context}`);
+            } else {
+                
             }
         } else if (postID && commentID) {
             if (isAutomatic) {
-                window.location.replace(`https://openinapollo.com?subreddit=${subreddit}&postID=${postID}&commentID=${commentID}`);
-            } else {
                 window.location.replace(`apollo://reddit.com/r/${subreddit}/comments/${postID}/_/${commentID}`);
+            } else {
+                
             }
         } else if (postID) {
             if (isAutomatic) {
-                window.location.replace(`https://openinapollo.com?subreddit=${subreddit}&postID=${postID}`);
-            } else {
                 window.location.replace(`apollo://reddit.com/r/${subreddit}/comments/${postID}`);
+            } else {
+                
             }
         } else {
             if (isAutomatic) {
-                window.location.replace(`https://openinapollo.com?subreddit=${subreddit}`);
-            } else {
                 window.location.replace(`apollo://reddit.com/r/${subreddit}`);
+            } else {
+                
             }
         }
     }
